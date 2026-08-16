@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="master_style.css">
+    <title>Ralphie's Repository of Projects</title>
 </head>
 <body>
-    home
+    <div class="side_bar" aria-label="navigation purposes">
+        <a href="home.html" class="tab-link active">home</a>
+        <a href="about.html" class="tab-link">about</a>
+        <a href="projects.html" class="tab-link">projects</a>
+    </div>
+
+    <div class="show-page">
+        <div class="window">
+            <iframe id="pageFrame" title="Project content" src="home.html"></iframe>
+        </div>
+    </div>
+    <script src="master_script.js"></script>
 </body>
 </html>
